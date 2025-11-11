@@ -4,8 +4,8 @@ public class Theatre {
         Actor actor1 = new Actor("actor1", "actor1", Gender.MALE, 100);
         Actor actor2 = new Actor("actor2", "actor2", Gender.MALE, 200);
         Actor actor3 = new Actor("actor3", "actor3", Gender.MALE, 300);
-        Director director1 = new Director("director1", "director1", Gender.MALE, 10);
-        Director director2 = new Director("director2", "director2", Gender.MALE, 20);
+        Director director1 = new Director("director1", "director1", Gender.FEMALE, 10);
+        Director director2 = new Director("director2", "director2", Gender.FEMALE, 20);
 
         Person musician = new Person("musician", "musician", Gender.MALE);
         Person choreographer = new Person("choreographer", "choreographer", Gender.MALE);
