@@ -13,6 +13,7 @@ public class Theatre {
         Show show = new Show ("Show", 100, director1);
         show.addActor(actor1);
         show.addActor(actor2);
+        show.addActor(actor2);
         show.printActors();
 
         Ballet showBallet = new Ballet ("Ballet", 100, director2, musician, "showBallet librettoText", choreographer);
