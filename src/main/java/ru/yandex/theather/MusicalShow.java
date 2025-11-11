@@ -1,3 +1,5 @@
+package main.java.ru.yandex.theather;
+
 public class MusicalShow extends Show {
     private Person musicAuthor;
     private String librettoText;

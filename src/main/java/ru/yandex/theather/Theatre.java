@@ -1,3 +1,5 @@
+package main.java.ru.yandex.theather;
+
 public class Theatre {
 
     public static void main(String[] args) {
@@ -12,7 +14,6 @@ public class Theatre {
 
         Show show = new Show ("Show", 100, director1);
         show.addActor(actor1);
-        show.addActor(actor2);
         show.addActor(actor2);
         show.printActors();
 

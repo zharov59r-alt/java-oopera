@@ -1,3 +1,5 @@
+package main.java.ru.yandex.theather;
+
 public class Ballet extends MusicalShow {
     private Person choreographer;
 

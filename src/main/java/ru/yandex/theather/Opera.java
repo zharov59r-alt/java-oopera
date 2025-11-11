@@ -1,3 +1,5 @@
+package main.java.ru.yandex.theather;
+
 public class Opera extends MusicalShow {
     private int choirSize;
 

@@ -1,8 +1,10 @@
+package main.java.ru.yandex.theather;
+
 public class Director extends Person {
     private int numberOfShows;
 
-    public Director(String name, String surname, Gender gende, int numberOfShows) {
-        super(name, surname, gende);
+    public Director(String name, String surname, Gender gender, int numberOfShows) {
+        super(name, surname, gender);
         this.numberOfShows = numberOfShows;
     }
 

@@ -1,12 +1,14 @@
+package main.java.ru.yandex.theather;
+
 public class Person {
     protected String name;
     protected String surname;
-    protected Gender gende;
+    protected Gender gender;
 
-    public Person(String name, String surname, Gender gende) {
+    public Person(String name, String surname, Gender gender) {
         this.name = name;
         this.surname = surname;
-        this.gende = gende;
+        this.gender = gender;
     }
 
     @Override

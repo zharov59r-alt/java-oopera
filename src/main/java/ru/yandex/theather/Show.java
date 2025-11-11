@@ -1,3 +1,5 @@
+package main.java.ru.yandex.theather;
+
 import java.util.ArrayList;
 
 public class Show {
@@ -45,8 +47,6 @@ public class Show {
                         System.out.println("Найдено несколько актеров с указанной фамилией");
                         return;
                     }
-
-            System.out.println(actorIndex);
 
             if (actorIndex != -1)
                 listOfActors.set(actorIndex, actor);
